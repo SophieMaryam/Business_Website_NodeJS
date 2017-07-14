@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Book Online </title>
+		<link type="text/css" rel="stylesheet" href="stylepage.css"/>
+		 <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css"> 
+		<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+</head>
+<body>
+
+<div class="header">
+		<div class="navbar">
+			<ul> 
+				<li> <a href="index.html"> HOME </a> </li>
+				<li> | </li>
+				<li> <a href="about.html"> ABOUT </a> </li>
+				<li> | </li>
+				<li> <a href="contact.html"> CONTACT </a></li>
+				<li> | </li>
+				<li> <a href="#"> BOOK </a> </li>
+			</ul>
+		</div>
+	</div>
+
+	<div id="coverpage2">
+	</div>
+
+  <form id="form">
+   	<h2 id="bookingform"> Booking form</h2>
+   		<div id="information">
+	   		<h3> Personal details </h3>
+	   			<p> Title: </p>
+	   			<select name="yourtreament">
+		   			<option selected="selected"> Options </option>
+		   			<option class="font"> Mrs. </option>
+		   			<option class="font"> Miss. </option>
+		   			<option class="font"> Ms. </option>
+		   			<option class="font"> Mr. </option>
+		   			<option class="font"> N/A </option>
+		   		</select>
+	   			<br>
+	   			<br>
+	   			<br>
+	   			<br>
+
+	   			<div id="test">
+	  			<img id="myImage" src="images/pedicure.jpeg" alt="image test" />
+  				</div>
+
+	   			<p> Name: </p>
+	   			<input class="box" type="TEXT" placeholder="Name" size="30" maxlength="100" />
+	   			<p> Email: </p>
+	   			<input type="TEXT" placeholder="Email" size="30" maxlength="70" /></p>
+	  			<p> Telephone: </p> 
+	  			<input type="TEXT" placeholder="Telephone" size="30" maxlength="70" /></p>  
+		  
+		<br>
+		<br>
+		  	<h3> Select a Date </h3>
+		 		<input id="calender" placeholder="mm-dd-yyyy" size="30" maxlength="70"/>
+		 
+
+		<br>
+		<br>
+		<br>
+		<div id="change">
+
+		   <h3> Your Treatment</h3>
+		   		<select id="alloptions"name="menu" maxlength="30" onmousedown="if(this.options.length>8){this.size=8;}">
+		   			<option selected="selected" class="font"> Options </option>
+		   			<option class="font"> Deep Tissue (60 min - €55) </option>
+		   			<option class="font"> Deep Tissue (120 min - €95) </option>
+		   			<option class="font"> Signature Massage (90 min - €75) </option>
+		   			<option class="font"> Signature Massage (120 min - €95) </option>
+		  			<option class="font"> Hot Stone Massage (120 min - €100) </option>
+		  			<option class="font"> Hot Stone Massage (90 min - €80) </option>
+		  			<option class="font"> Slim & Trim Massage (60 min - €60) </option>
+		  			<option class="font"> Slim & Trim Massage (90 min - €80) </option>
+		  			<option class="font"> Head, Neck, & Back (60 min - €40) </option>
+		  			<option class="font"> S&S Organic Aloe Vera Facial (60 min - €30) </option>
+		  			<option class="font"> Collagen Induction Therapy (60 min - €45) </option>
+		  			<option class="font"> Caviar Extract Face Mask (15 min - €10) </option>
+		  			<option class="font"> Haircut (60 min - €20) </option>
+		  			<option class="font"> Haircut + Wash (120 min - €30) </option>
+		  			<option class="font"> Hairstyling (60-120 min - €40) </option>
+		  			<option class="font"> Eyebrow Coloring  (15 min - €15) </option>
+		  			<option class="font"> Eyebrow Waxing (10 min - €10) </option>
+		  			<option class="font"> Combo-deal: Coloring & Waxing (25 min - €15) </option>
+		  			<option class="font"> Manicure (60 min - €20) </option>
+		  			<option class="font"> Pedicure (60 min - €20) </option>
+		  			<option class="font"> Mani + Pedi (60 min - €35) </option>
+
+		  		 </select>
+		
+		   <br/>
+
+		   <input class="end" type="submit" value="Submit" />
+		   <input class="end" type="reset" value="Clear this form" /> 
+ 	</div>
+</div>
+  </form>
+
+
+
+  <div class="footer">
+	<div class="footer-content">
+		<ul>
+			<li id="jobs"> JOBS </li>
+			<li> | </li>
+			<li> PRESS </li>
+			<li> | </li>
+			<li> PROMO CODE </li>
+			<li> | </li>
+			<li> TERMS AND CONDITIONS </li>
+		</ul>
+		<div id="copyright">
+			<p>&copy; S&S Spa 2014 ✩ Herengracht 333, 1010 AA Amsterdam, The Netherlands ✩ ssspa@gmail.com ✩ +31 20 777 7111 ✩ <a href="https://www.google.nl/maps/place/John+M.+Keynesplein+12,+1066+EP+Amsterdam/data=!4m2!3m1!1s0x47c5e1858e61d4ff:0xa583b369719c707d?sa=X&ved=0ahUKEwjwqMfJidTUAhUMEVAKHbc7A8wQ8gEIIzAA"> Show on Map </a> </p> 
+		</div>
+
+		<img id="logo" src="logos/logo.png"/>
+	</div>
+</div>
+
+
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"> </script> 
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"> 
+</script>
+
+<script>
+$(document).ready(function() { 
+  		$("#calender").datepicker(function(){
+  			$("#calender").slideToggle("slow", function(){});
+  		});
+ 
+
+
+		var images = new Array ('images/ourbuilding.jpeg', 'images/bodymassage.jpeg', 'images/relax.jpg');
+		var index = 1;
+
+		function rotateImage()
+		{
+		  $('#myImage').fadeOut('slow', function()
+		  {
+		    $(this).attr('src', images[index]);
+
+		    $(this).fadeIn('slow', function()
+		    {
+		      if (index == images.length-1)
+		      {
+		        index = 0;
+		      }
+		      else
+		      {
+		        index++;
+		      }
+		    });
+		  });
+		}
+
+		setInterval (rotateImage, 4500);
+		
+});
+
+
+
+
+
+
+ </script>
+
+</body>
+</html>
